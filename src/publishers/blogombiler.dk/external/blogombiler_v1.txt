@@ -1,0 +1,73 @@
+===================================================
+
+Slots (placeringer) 
+
+===================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-rec1 (def-rec1)
+
+- cncpt-rec2 (def-rec2)
+
+- cncpt-rec3 (def-rec3)
+
+- cncpt-outstream (def-outstream)
+
+
+===================================================
+
+Definitioner
+
+===================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/blogombiler.dk_dsk_lb1_245982',
+	size: [
+		[[930, 600] ,[[ 930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/blogombiler.dk_dsk_rec1_245983  ',
+	size: [
+		[[930, 600],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-rec2', {
+	path: '/5706918/blogombiler.dk_dsk_rec2',
+	size: [
+		[[930, 600],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-rec3', {
+	path: '/5706918/blogombiler.dk_dsk_rec3',
+	size: [
+		[[930, 600],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-outstream', {
+	path: '/5706918/blogombiler.dk_outstream',
+	size: [
+		[[0, 0],[1, 1]]
+	],
+	inview: [],
+	refresh: 0
+});
+

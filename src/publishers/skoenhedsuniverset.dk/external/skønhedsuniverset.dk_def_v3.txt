@@ -1,0 +1,62 @@
+========================================================
+
+Slots
+
+========================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-lb3 (def-lb3)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+====================================================
+
+Definitioner
+
+====================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/propelcom_skoenhedsuniverset.dk_dsk_lb1_skn_247514',
+	size: [
+		[[928, 590] ,[930, 180]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-lb3', {
+	path: '/5706918/propelcom_skoenhedsuniverset.dk_dsk_lb3_meg_247515',
+	size: [
+		[[928, 590] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/propelcom_skoenhedsuniverset.dk_dsk_sky1_blk_247516',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0,
+	dependencies: ['cncpt-lb1']
+});
+
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/propelcom_skoenhedsuniverset.dk_dsk_sky2_blk_247517,
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0,
+	dependencies: ['cncpt-lb1']
+});

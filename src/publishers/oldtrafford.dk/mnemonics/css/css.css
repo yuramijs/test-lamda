@@ -1,0 +1,27 @@
+.adsm-skin #header-top {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.adsm-skin #header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.adsm-skin #footer {
+  background-color: #f3f3f3;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.adsm-skin #subfooter {
+  background-color: #f3f3f3;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

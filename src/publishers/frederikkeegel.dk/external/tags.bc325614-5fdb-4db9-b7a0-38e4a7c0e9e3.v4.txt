@@ -1,0 +1,61 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script>
+    var adsmtag = adsmtag || {};
+    adsmtag.cmd = adsmtag.cmd || [];
+    (function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https:' + '//rmb-adsembler.netdna-ssl.com/mnemonics/adsm.macro.bc325614-5fdb-4db9-b7a0-38e4a7c0e9e3.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+    })();
+</script>
+
+================================================================
+Document Body
+Copy and paste these tags in the <body> section of your HTML.
+Place each tag in the desired location of the associated <div>.
+================================================================
+<div id="cncpt-lb1"></div>
+
+<div id="cncpt-lb2"></div>
+
+<div id="cncpt-lb3"></div>
+
+<div id="cncpt-lb4"></div>
+
+<div id="cncpt-lb5"></div>
+
+<div id="cncpt-lb6"></div>
+
+<div id="cncpt-rec1"></div>
+
+<div id="cncpt-rec2"></div>
+
+<div id="cncpt-rec3"></div>
+
+<div id="cncpt-rec4"></div>
+
+<div id="cncpt-rec5"></div>
+
+<div id="cncpt-rec6"></div>
+
+<div id="cncpt-rec7"></div>
+
+<div id="cncpt-rec8"></div>
+
+<div id="cncpt-mob1"></div>
+
+<div id="cncpt-mob2"></div>
+
+<div id="cncpt-mob3"></div>
+
+<div id="cncpt-mob4"></div>
+
+<div id="cncpt-mob5"></div>
+
+<div id="cncpt-mob6"></div>

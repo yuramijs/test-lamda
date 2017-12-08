@@ -1,0 +1,49 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script>
+    var adsmtag = adsmtag || {};
+    adsmtag.cmd = adsmtag.cmd || [];
+    (function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https:' + '//rmb-adsembler.netdna-ssl.com/mnemonics/adsm.macro.5b8a1304-d839-4860-8fa8-eb387da61c9b.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+    })();
+</script>
+
+================================================================
+Document Body
+Copy and paste these tags in the <body> section of your HTML.
+Place each tag in the desired location of the associated <div>.
+================================================================
+<div id="cncpt-lb1"></div>
+
+<div id="cncpt-sky1"></div>
+
+<div id="cncpt-sky2"></div>
+
+<div id="cncpt-sky3"></div>
+
+<div id="cncpt-sky4"></div>
+
+<div id="cncpt-rec3"></div>
+
+<div id="cncpt-tab_rec3"></div>
+
+<div id="cncpt-tab_sky1"></div>
+
+<div id="cncpt-tab_sky2"></div>
+
+<div id="cncpt-tab_sky3"></div>
+
+<div id="cncpt-mob1"></div>
+
+<div id="cncpt-mob2"></div>
+
+<div id="cncpt-mob3"></div>
+
+<div id="cncpt-outstream"></div>

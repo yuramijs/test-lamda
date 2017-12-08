@@ -1,0 +1,9 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script src='https://macro.adnami.io/adsm.macro.84ce4bf6-3a81-4798-8c78-6d4602fc0686.js'></script>
+<script>
+  var adsmtag = adsmtag || {};
+  adsmtag.cmd = adsmtag.cmd || [];
+</script>

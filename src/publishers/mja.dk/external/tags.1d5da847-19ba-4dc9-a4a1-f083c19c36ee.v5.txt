@@ -1,0 +1,83 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script>
+    var adsmtag = adsmtag || {};
+    adsmtag.cmd = adsmtag.cmd || [];
+    (function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https:' + '//rmb-adsembler.netdna-ssl.com/mnemonics/adsm.macro.1d5da847-19ba-4dc9-a4a1-f083c19c36ee.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+    })();
+</script>
+
+================================================================
+Document Body
+Copy and paste these tags in the <body> section of your HTML.
+Place each tag in the desired location of the associated <div>.
+================================================================
+<div id="cncpt-lb1-skn"></div>
+
+<div id="cncpt-lb4"></div>
+
+<div id="cncpt-lb5"></div>
+
+<div id="cncpt-lb6"></div>
+
+<div id="cncpt-lb10"></div>
+
+<div id="cncpt-featuresplash_center"></div>
+
+<div id="cncpt-featuresplash_left"></div>
+
+<div id="cncpt-featuresplash_right"></div>
+
+<div id="cncpt-centre_630x180"></div>
+
+<div id="cncpt-rec1"></div>
+
+<div id="cncpt-rec2"></div>
+
+<div id="cncpt-rec3"></div>
+
+<div id="cncpt-rec4"></div>
+
+<div id="cncpt-bis1"></div>
+
+<div id="cncpt-bis2"></div>
+
+<div id="cncpt-bis3"></div>
+
+<div id="cncpt-bis4"></div>
+
+<div id="cncpt-bis5"></div>
+
+<div id="cncpt-bis6"></div>
+
+<div id="cncpt-sky1"></div>
+
+<div id="cncpt-sky2"></div>
+
+<div id="cncpt-sky3"></div>
+
+<div id="cncpt-sky4"></div>
+
+<div id="cncpt-outstream"></div>
+
+<div id="cncpt-mob1"></div>
+
+<div id="cncpt-mob2"></div>
+
+<div id="cncpt-mob3"></div>
+
+<div id="cncpt-mob_bis1"></div>
+
+<div id="cncpt-mob_bis2"></div>
+
+<div id="cncpt-mob_bis3"></div>
+
+<div id="cncpt-mob_bis4"></div>

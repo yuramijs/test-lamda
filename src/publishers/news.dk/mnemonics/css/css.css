@@ -1,0 +1,29 @@
+/* SKIN */
+.adsm-skin body {
+  background-position: center 90px !important;
+  background-attachment: scroll !important;
+}
+
+.adsm-skin .adsm-wallpaper {
+  position: absolute !important;
+  top: 90px !important;
+}
+
+.adsm-skin .adsm-wallpaper-creative {
+  position: absolute !important;
+}
+
+.adsm-skin #site-header-banner {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

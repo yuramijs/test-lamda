@@ -1,0 +1,35 @@
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_dsk_lb1_skn', [930, 180]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_dsk_lb2', [930, 180]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_dsk_sky1', [300, 600]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_mob1', [320, 320]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_mob2', [320, 320]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_mob3', [320, 320]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_outstream', [1, 1]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_tab_lb1', [930, 180]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/de_sjove_jokes_tab_lb2', [930, 180]).setTargeting('entry', ['first']).display();
+</script>

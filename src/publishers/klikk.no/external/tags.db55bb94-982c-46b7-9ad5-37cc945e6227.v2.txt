@@ -1,0 +1,15 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script src='https://macro.adnami.io/adsm.macro.db55bb94-982c-46b7-9ad5-37cc945e6227.js'></script>
+<script>
+  var adsmtag = adsmtag || {};
+  adsmtag.cmd = adsmtag.cmd || [];
+</script>
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>

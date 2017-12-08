@@ -1,0 +1,39 @@
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_dsk_lb1_skn', [[930, 180], [930, 600], [930, 360]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_dsk_lb2', [[930, 180], [930, 600], [930, 360]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_dsk_rec1', [300, 250]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_dsk_rec2', [300, 250]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_mob1', [[300, 250], [320, 50], [320, 160], [320, 320]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_mob2', [[300, 250], [320, 50], [320, 160], [320, 320]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_mob3', [[300, 250], [320, 50], [320, 160], [320, 320]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_mob4', [[300, 250], [320, 50], [320, 160], [320, 320]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_tab_lb1', [[930, 180], [728, 90]]).setTargeting('entry', ['first']).display();
+</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'>
+  googletag.pubads().definePassback('/5706918/mandesiden.dk_tab_tab2', [[930, 180], [728, 90]]).setTargeting('entry', ['first']).display();
+</script>

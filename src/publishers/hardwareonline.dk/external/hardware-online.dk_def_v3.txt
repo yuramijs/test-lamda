@@ -1,0 +1,66 @@
+========================================================
+
+Slots
+
+========================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-lb3 (def-lb3)
+
+- cncpt-rec1 (def-rec1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-sky4 (def-sky4)
+
+====================================================
+
+Definitioner
+
+====================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/hardwareonline.dk_dsk_lb1_skn_250324',
+	size: [
+		[[0, 0] ,[930, 180]],
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-lb3', {
+	path: '/5706918/hardwareonline.dk_dsk_lb3_250328',
+	size: [
+		[[0, 0],[[930, 180]]],
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/hardwareonline.dk_dsk_rec1_250927',
+	size: [
+		[[0, 0],[300, 250]],
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/hardwareonline.dk_dsk_sky2_blk_250329',
+	size: [
+		[[0, 0],[160, 600]],
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky4', {
+	path: '/5706918/hardwareonline.dk_dsk_sky4_blk_250330',
+	size: [
+		[[0, 0],[160, 600]],
+	],
+	inview: [],
+	refresh: 0
+});

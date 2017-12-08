@@ -1,0 +1,29 @@
+.adsm-skin body {
+  background-position: center 50px !important;
+}
+
+.adsm-skin .adsm-wallpaper {
+  top: 50px !important;
+}
+
+.adsm-skin #top-spacer {
+  height: 50px;
+}
+
+.adsm-skin #leader-wrapper {
+  margin: 0;
+  padding: 30px 10px 10px 10px;
+  background: #eaeaea;
+}
+
+.adsm-skin #main-wrapper > br {
+  display: none;
+}
+
+.adsm-skin #footer-wrapper {
+  margin-top: 0;
+}
+
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}
