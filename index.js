@@ -49,42 +49,15 @@ exports.handler = (event, context, callback) => {
             Bucket    : '/adnami-dev-440674/macro/33a2a992-3d45-4a12-9e05-3b0d6802f48f',
             Key    : files[0],
         };
-
-        // const fileStream = s3.getObject(options, (err, data) => {
-
-        //     if(err) return console.log(err);
-
-        //     const file = data.Body.toString('utf-8');
-        //     const params = {
-        //         Body: file,
-        //         Bucket: '/adnami-dev-440674/macro/33a2a992-3d45-4a12-9e05-3b0d6802f48f',
-        //         Key: 'new.css'
-        //     };
-        //     s3.putObject(params, (err, data) => {
-        //         if(err) return console.log(err);
-        //         console.log(data);
-        //     });
-        // })
-
-
-        // //TODO rewrite by stream
-        // fs.writeFile('/tmp/file.css', files, (err) => {
-        //     if(err) return console.log(err)
-        // })
-
-        // fs.readFile('/tmp/file.css', 'utf-8', (err, contents) => {
-        //     callback(null, contents)
-        // })
-
-
         const object = s3.getObject(options).promise();
+
         object.then(file => {
             const newfile = file.Body.toString('utf-8');
      
             const params = {
                 Body: newfile,
                 Bucket: '/adnami-dev-440674/macro/33a2a992-3d45-4a12-9e05-3b0d6802f48f',
-                Key: 'new.css'
+                Key: 'new.css',
             };
             s3.putObject(params, (err, data) => {
                 if(err) return console.log(err);
