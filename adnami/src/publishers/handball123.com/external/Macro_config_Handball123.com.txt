@@ -1,0 +1,84 @@
+adsmtag.define('def-lb1', {
+	path: '/5706918/handball123.com_dsk_lb1_skn_250929',
+	size: [
+		[[930, 600],[[[930, 180], [930, 600]]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/handball123.com_dsk_rec1_251265',
+	size: [
+		[[930, 600],[[300, 250],[300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/handball123.com_dsk_sky1_blk_250930',
+	size: [
+		[[1320, 600],[[160, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/handball123.com_dsk_sky2_blk_250931',
+	size: [
+		[[1320, 600],[[160, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [0],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_rec3', {
+	path: '/5706918/handball123.com_dsk_rec1_251265',
+	size: [
+		[[415, 500],[[300, 250],[300, 600]]],
+		[[930, 600],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/handball123.com_mob1_251267',
+	size: [
+		[[0, 0],[[320, 320],[320, 160]]],
+		[[415, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-mob2', {
+	path: '/5706918/handball123.com_mob2_251268',
+	size: [
+		[[0, 0],[[320, 320],[320, 160]]],
+		[[415, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-mob3', {
+	path: '/5706918/handball123.com_mob3_251269',
+	size: [
+		[[0, 0],[[320, 320],[320, 160]]],
+		[[415, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+
+

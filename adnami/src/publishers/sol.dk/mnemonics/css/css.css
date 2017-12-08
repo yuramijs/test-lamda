@@ -1,0 +1,38 @@
+/* SKIN */
+.adsm-skin body {
+  background-position:center 96px !important;
+}
+
+.adsm-skin body.admin-menu {
+  background-position:center 143px !important;
+}
+
+.adsm-skin .adsm-wallpaper {
+  top: 96px !important;
+}
+
+.adsm-skin body.admin-menu .adsm-wallpaper {
+  top: 143px !important;
+}
+
+.adsm-skin #block-views-pub-block-2 {
+  width: auto !important;
+  right: 100%;
+  margin-right: 15px;
+}
+
+.adsm-skin #block-views-pub-block-3 {
+  width: auto !important;
+  left: 100%;
+  margin-left: 15px;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

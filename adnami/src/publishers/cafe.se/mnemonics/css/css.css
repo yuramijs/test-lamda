@@ -1,0 +1,14 @@
+/* SKIN */
+.adsm-skin .o-wallpaper {
+  background-attachment: scroll !important;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

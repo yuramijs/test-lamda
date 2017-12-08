@@ -1,0 +1,303 @@
+===================================================
+
+Slots (placeringer) 
+
+===================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-sky4 (def-sky4)
+
+- cncpt-rec3 (def-rec3)
+
+- cncpt-tab_rec3 (def-tab_rec3)
+
+- cncpt-tab_sky1 (def-tab_sky1)
+
+- cncpt-tab_sky2 (def-tab_sky2)
+
+- cncpt-mob1 (def-mob1)
+
+- cncpt-mob2 (def-mob2)
+
+- cncpt-mob3 (def-mob3)
+
+- cncpt-outstream (def-outstream)
+
+- cncpt-lb2 (def-lb2)
+
+- cncpt-lb3 (def-lb3)
+
+- cncpt-dsk_rec1 (def-dsk_rec1)
+
+- cncpt-dsk_rec2 (def-dsk_rec2)
+
+- cncpt-dsk_rec4 (def-dsk_rec4)
+
+- cncpt-dsk_rec5 (def-dsk_rec5)
+
+- cncpt-dsk_sky3 (def-dsk_sky3)
+
+- cncpt-dsk_sky5 (def-dsk_sky5)
+
+- cncpt-tab_sky3 (def-tab_sky3)
+
+- cncpt-tab_sky4 (def-tab_sky4)
+
+- cncpt-tab_rec2 (def-tab_rec2)
+
+- cncpt-mob4 (def-mob4)
+
+
+===================================================
+
+Definitioner
+
+===================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/nordicadpartner_europamester.dk_dsk_lb1_245174',
+	size: [
+		[[930, 600] ,[[ 930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec3', {
+	path: '/5706918/nordicadpartner_europamester.dk_dsk_rec3_300x600_245180',
+	size: [
+		[[930, 600],[[300, 250],[300, 600]]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/nordicadpartner_europamester.dk_dsk_sky1_blk_245181',
+	size: [
+		[[1320, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/nordicadpartner_europamester.dk_dsk_sky2_blk_245182',
+	size: [
+		[[1320, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky4', {
+	path: '/5706918/nordicadpartner_europamester.dk_dsk_sky4_300x600_245184',
+	size: [
+		[[930, 600],[[160, 600],[300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_rec3', {
+	path: '/5706918/nordicadpartner_europamester.dk_tab_rec3_300x600_245196',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[[300, 250],[300, 600]]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky1', {
+	path: '/5706918/nordicadpartner_europamester.dk_tab_sky1_245197',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[160, 600]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky2', {
+	path: '/5706918/nordicadpartner_europamester.dk_tab_sky2_300x600__245198',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[[160, 600],[300, 600]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/nordicadpartner_europamester.dk_mob1_245187',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob2', {
+	path: '/5706918/nordicadpartner_europamester.dk_mob2_245189',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-mob3', {
+	path: '/5706918/nordicadpartner_europamester.dk_mob3_245192',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-outstream', {
+	path: '/5706918/Europamester.dk_outstream',
+	size: [
+		[[0, 0],[1, 1]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-lb2', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_lb2_253385',
+	size: [
+		[[930, 600],[[930, 180],[930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-lb3', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_lb3_253387',
+	size: [
+		[[930, 600],[[930, 180],[930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_rec1_253389',
+	size: [
+		[[930, 600],[[300, 250],[300, 600]]],
+		[[0, 0],[]]	
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec2', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_rec2_253391',
+	size: [
+		[[930, 600],[[300, 250],[300, 600]]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-rec4', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_rec4',
+	size: [
+		[[930, 600],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-rec5', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_rec5',
+	size: [
+		[[930, 600],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def_sky3', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_sky3_253393',
+	size: [
+		[[930, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def_sky5', {
+	path: '/5706918/sportensverden_europamester.dk_dsk_sky5_253394,
+	size: [
+		[[930, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky3', {
+	path: '/5706918/sportensverden_europamester.dk_tab_sky3_253395',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[160, 600]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky4', {
+	path: '/5706918/sportensverden_europamester.dk_tab_sky4_253396',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[160, 600]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_rec2', {
+	path: '/5706918/sportensverden_europamester.dk_tab_rec2_253397',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[[300, 250],[300, 600]]]		
+	],
+	inview: [100],
+	refresh: 0
+});
+
+
+adsmtag.define('def-mob4', {
+	path: '/5706918/sportensverden_europamester.dk_mob4_253399',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [100],
+	refresh: 0
+});

@@ -1,0 +1,178 @@
+===================================================
+
+Slots (placeringer) 
+
+===================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-sky3 (def-sky3)
+
+- cncpt-sky4 (def-sky4)
+
+- cncpt-rec3 (def-rec3)
+
+- cncpt-tab_rec3 (def-tab_rec3)
+
+- cncpt-tab_sky1 (def-tab_sky1)
+
+- cncpt-tab_sky2 (def-tab_sky2)
+
+- cncpt-tab_sky3 (def-tab_sky3)
+
+- cncpt-mob1 (def-mob1)
+
+- cncpt-mob2 (def-mob2)
+
+- cncpt-mob3 (def-mob3)
+
+- cncpt-outstream (def-outstream)
+
+===================================================
+
+Definitioner
+
+===================================================
+
+adsmtag.define('def-lb1', {
+	path: '//5706918/nordicadpartner_hockeymagasinet.dk_dsk_lb1_245154',
+	size: [
+		[[930, 600] ,[[ 930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec3', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_dsk_rec3_300x600_245156',
+	size: [
+		[[930, 600],[[300, 250],[300, 600]]],
+		[[0, 0],[]]	
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_dsk_sky1_245157',
+	size: [
+		[[930, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_dsk_sky2_245158',
+	size: [
+		[[930, 600],[[160, 600],[300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky3', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_dsk_sky3_245159',
+	size: [
+		[[1320, 600],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky4', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_dsk_sky4_245160',
+	size: [
+		[[930, 600],[[160, 600],[300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_rec3', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_tab_rec3_300x600_245165',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[[300, 250],[300, 600]]]		
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky1', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_tab_sky1_245166',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[160, 600]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky2', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_tab_sky2_300x600_245167',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[[160, 600],[300, 600]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab_sky3', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_tab_sky3_245168',
+	size: [
+		[[930, 600],[]],
+		[[415, 500],[160, 600]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_mob1_245161',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob2', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_mob2_245162',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-mob3', {
+	path: '/5706918/nordicadpartner_hockeymagasinet.dk_mob3_245163',
+	size: [
+		[[415, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [100],
+	refresh: 0
+});
+
+adsmtag.define('def-outstream', {
+	path: '/5706918/Hockeymagasinet.dk_outstream',
+	size: [
+		[[0, 0],[1, 1]]
+	],
+	inview: [],
+	refresh: 0
+});

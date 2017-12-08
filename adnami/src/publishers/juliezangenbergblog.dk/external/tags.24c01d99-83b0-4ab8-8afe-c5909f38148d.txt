@@ -1,0 +1,43 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script>
+    var adsmtag = adsmtag || {};
+    adsmtag.cmd = adsmtag.cmd || [];
+    (function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https:' + '//rmb-adsembler.netdna-ssl.com/mnemonics/adsm.macro.24c01d99-83b0-4ab8-8afe-c5909f38148d.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+    })();
+</script>
+
+================================================================
+Document Body
+Copy and paste these tags in the <body> section of your HTML.
+Place each tag in the desired location of the associated <div>.
+================================================================
+<div id="cncpt-lb1-skn"></div>
+
+<div id="cncpt-lb1-dis"></div>
+
+<div id="cncpt-sky1"></div>
+
+<div id="cncpt-sky2"></div>
+
+<div id="cncpt-sky3"></div>
+
+<div id="cncpt-sky4"></div>
+
+<div id="cncpt-outstream"></div>
+
+<div id="cncpt-mob1"></div>
+
+<div id="cncpt-mob2"></div>
+
+<div id="cncpt-mob3"></div>
+
+<div id="cncpt-mob4"></div>

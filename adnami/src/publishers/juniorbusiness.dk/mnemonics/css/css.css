@@ -1,0 +1,32 @@
+/* SKIN */
+.adsm-skin #cncpt-lb1 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* INTERSCROLL */
+.fusion-content-widget-area .widget #cncpt-mob1,
+.fusion-content-widget-area .widget #cncpt-mob2,
+.fusion-content-widget-area .widget #cncpt-mob3 {
+  position: relative;
+  margin-left: -62px;
+  margin-right: -30px;
+}
+
+.fusion-footer-widget-area .widget #cncpt-mob1,
+.fusion-footer-widget-area .widget #cncpt-mob2,
+.fusion-footer-widget-area .widget #cncpt-mob3 {
+  position: relative;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

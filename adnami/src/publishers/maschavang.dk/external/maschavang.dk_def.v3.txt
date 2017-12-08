@@ -1,0 +1,144 @@
+====================================================
+
+Slots
+
+====================================================
+
+- cncpt-lb1-skn (def-lb1)
+
+- cncpt-lb1-dis (def-tab-lb1)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-sky3 (def-sky3)
+
+- cncpt-sky4 (def-sky4)
+
+- cncpt-outstream (def-outstream)
+
+- cncpt-mob1 (def-mob1)
+
+- cncpt-mob2 (def-mob2)
+
+- cncpt-mob3 (def-mob3)
+
+- cncpt-mob4 (def-mob4)
+
+===================================================
+
+Definitioner
+
+===================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/Maschavang.dk_-_930x180_ATF_223123',
+	size: [
+		[[928, 590] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-tab-lb1', {
+	path: '/5706918/Blogly_Maschavang_dsk_lb1_dis',
+	size: [
+		[[1025, 590],[]],
+		[[737, 590],[930, 180]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/Maschavang.dk_-_160x600_ATF_L_223127',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/Maschavang.dk_-_160x600_ATF_R_223128',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky3', {
+	path: '/5706918/Maschavang.dk_-_160x600_BTF_L_223129',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky4', {
+	path: '/5706918/Maschavang.dk_-_160x600_BTF_R_223130',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+
+adsmtag.define('def-outstream', {
+	path: '/5706918/Blogly_Maschavang_dsk_outstream',
+	size: [
+		[[0, 0],[1, 1]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/Maschavang.dk_-_320x320_1_223131',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob2', {
+	path: '/5706918/Maschavang.dk_-_320x320_2_223132',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob3', {
+	path: '/5706918/Maschavang.dk_-_320x320_3_223133',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob4', {
+	path: '/5706918/Maschavang.dk_-_320x320_4_223134',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});

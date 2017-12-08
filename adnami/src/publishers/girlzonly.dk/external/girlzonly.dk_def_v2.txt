@@ -1,0 +1,132 @@
+========================================================
+
+Slots
+
+========================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-lb2 (def-lb2)
+
+- cncpt-lb3 (def-lb3)
+
+- cncpt-rec1 (def-rec1)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-outstream (def-outstream)
+
+- cncpt-mob1 (def-mob1)
+
+- cncpt-mob2 (def-mob2)
+
+- cncpt-mob3 (def-mob3)
+
+====================================================
+
+Definitioner
+
+====================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/girlzonly.dk_dsk_lb1_skn',
+	size: [
+		[[928, 590] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-lb2', {
+	path: '/5706918/girlzonly.dk_dsk_lb2',
+	size: [
+		[[928, 590] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-lb3', {
+	path: '/5706918/girlzonly.dk_dsk_lb3',
+	size: [
+		[[928, 590] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/girlzonly.dk_dsk_rec1',
+	size: [
+		[[928, 590],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/girlzonly.dk_dsk_sky1_blk',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0,
+	dependencies: ['cncpt-lb1']
+});
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/girlzonly.dk_dsk_sky2_blk',
+	size: [
+		[[1290, 590],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 0,
+	dependencies: ['cncpt-lb1']
+});
+
+adsmtag.define('def-outstream', {
+	path: '/5706918/girlzonly.dk_dsk_outstream',
+	size: [
+		[[0, 0],[1, 1]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/girlzonly.dk_mob1',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob2', {
+	path: '/5706918/girlzonly.dk_mob2',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-mob3', {
+	path: '/5706918/girlzonly.dk_mob3',
+	size: [
+		[[737, 0],[]],
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 0
+});

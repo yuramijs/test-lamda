@@ -1,0 +1,7 @@
+.adsm-skin body {
+  padding-bottom: 0px;
+}
+
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

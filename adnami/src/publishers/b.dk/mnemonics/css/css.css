@@ -1,0 +1,29 @@
+/* SKIN */
+.adsm-skin #Wallpaper {
+  display: block !important;
+  height: 1440px;
+  background-attachment: scroll !important;
+}
+
+.adsm-skin #Wallpaper > div {
+  pointer-events: none;
+}
+
+.adsm-skin .adsm-wallpaper {
+  position: absolute !important;
+  top: 152px !important;
+}
+
+.adsm-skin .adsm-wallpaper-creative {
+  position: absolute !important;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

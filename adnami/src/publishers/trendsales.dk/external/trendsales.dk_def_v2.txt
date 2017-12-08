@@ -1,0 +1,117 @@
+========================================================
+
+Slots
+
+========================================================
+
+- cncpt-lb1 (def-lb1)
+
+- cncpt-rec2 (def-rec2)
+
+- cncpt-sky1 (def-sky1)
+
+- cncpt-sky2 (def-sky2)
+
+- cncpt-sky3 (def-sky3)
+
+- cncpt-sky4 (def-sky4)
+
+- cncpt-mob1 (def-mob1)
+
+- cncpt-mob2_annoncebeskrivelse (def-mob2_annoncebeskrivelse)
+
+- cncpt-mob2_notifikationer (def-mob2_notifikationer)
+
+====================================================
+
+Definitioner
+
+====================================================
+
+adsmtag.define('def-lb1', {
+	path: '/5706918/trendsales.dk_dsk_lb1_239488',
+	size: [
+		[[0, 0] ,[[930, 180], [930, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-rec2', {
+	path: '/5706918/trendsales.dk_dsk_rec2_239489',
+	size: [
+		[[0, 0],[300, 250]],
+		[[0, 0],[]]	
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-sky1', {
+	path: '/5706918/trendsales.dk_dsk_sky1_blk_239490',
+	size: [
+		[[0, 0],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+
+adsmtag.define('def-sky2', {
+	path: '/5706918/trendsales.dk_dsk_sky2_blk_239491',
+	size: [
+		[[0, 00],[[160, 600], [300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-sky3', {
+	path: '/5706918/trendsales.dk_dsk_sky3_239492',
+	size: [
+		[[0, 0],[160, 600]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-sky4', {
+	path: '/5706918/trendsales.dk_dsk_sky4_239493',
+	size: [
+		[[0, 00],[[160, 600], [300, 600]]],
+		[[0, 0],[]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-mob1', {
+	path: '/5706918/trendsales.dk_mob1_239494',
+	size: [
+		[[0, 0],[[320, 320],[320, 160]]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-mob2_annoncebeskrivelse', {
+	path: '/5706918/Trendsales.dk_mob2_annoncebeskrivelse_320x160',
+	size: [
+		[[0, 0],[320, 160]]
+	],
+	inview: [],
+	refresh: 30000
+});
+
+adsmtag.define('def-mob2_notifikationer', {
+	path: '/5706918/Trendsales.dk_mob2_notifikationer_320x160',
+	size: [
+		[[0, 0],[320, 160]]
+	],
+	inview: [],
+	refresh: 30000
+});

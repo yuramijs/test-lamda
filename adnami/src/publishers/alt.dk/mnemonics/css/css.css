@@ -1,0 +1,15 @@
+.adsm-skin .sticky-block.sticky-block--fullwidth-top {
+  background-color: #fff;
+}
+
+.adsm-skin .happy-place.happy-place--top {
+  margin-bottom: 0;
+}
+
+.adsm-skin .header {
+  margin-top: 0;
+}
+
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

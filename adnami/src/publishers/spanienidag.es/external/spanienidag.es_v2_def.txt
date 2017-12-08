@@ -1,0 +1,64 @@
+===========================================
+SLOTS
+===========================================
+
+- cncpt-lb1_728x90 (def-lb1_728x90)
+
+- cncpt_rec1 (def-rec1)
+
+- cncpt_rec2 (def-rec2)
+
+- cncpt-rec3 (def-rec3)
+
+- cncpt_rec4 (def-rec4)
+
+===================================================
+
+Definitioner
+
+===================================================
+
+adsmtag.define('def-lb1_728x90', {
+	path: '/5706918/spanienidag.es_dsk_728x90',
+	size: [
+		[[0, 0] ,[728, 90]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec1', {
+	path: '/5706918/spanienidag.es_dsk_rec1',
+	size: [
+		[[0, 0],[300, 250]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec2', {
+	path: '/5706918/spanienidag.es_dsk_rec2',
+	size: [
+		[[0, 0],[300, 250]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec3', {
+	path: '/5706918/spanienidag.es_dsk_rec3',
+	size: [
+		[[0, 0],[300, 250]]
+	],
+	inview: [],
+	refresh: 0
+});
+
+adsmtag.define('def-rec4', {
+	path: '/5706918/spanienidag.es_dsk_rec4',
+	size: [
+		[[0, 0],[300, 250]]
+	],
+	inview: [],
+	refresh: 0
+});

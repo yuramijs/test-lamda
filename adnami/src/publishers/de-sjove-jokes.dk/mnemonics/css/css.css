@@ -1,0 +1,24 @@
+/* SKIN */
+.adsm-skin #ad-leaderboard {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.adsm-skin .wrapper-outer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.adsm-skin #slide-out {
+  display: none;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

@@ -1,0 +1,34 @@
+/* SKIN */
+.adsm-skin body {
+  background-position: center 50px !important;
+  background-attachment: scroll !important;
+}
+
+.adsm-skin.adsm-skin-fixed body {
+  background-position: center top !important;
+  background-attachment: fixed !important;
+}
+
+.adsm-skin .adsm-wallpaper {
+  position: absolute !important;
+  top: 50px !important;
+}
+
+.adsm-skin.adsm-skin-fixed .adsm-wallpaper {
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.adsm-skin .adsm-wallpaper-creative {
+  position: absolute !important;
+}
+
+/* MATHTAG */
+img[src^="//match.adsrvr.org"] {
+  display: none;
+}
+
+/* ADFORM */
+#adform-wallpaper-left, #adform-wallpaper-right {
+  display: none;
+}

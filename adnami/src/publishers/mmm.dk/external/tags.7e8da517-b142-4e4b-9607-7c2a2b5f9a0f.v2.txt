@@ -1,0 +1,51 @@
+================================================================
+Document Header
+Copy and paste this tag in the <head> section of your HTML.
+================================================================
+<script>
+    var adsmtag = adsmtag || {};
+    adsmtag.cmd = adsmtag.cmd || [];
+    (function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https:' + '//macro.adnami.io/adsm.macro.7e8da517-b142-4e4b-9607-7c2a2b5f9a0f.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(script, node);
+    })();
+</script>
+
+================================================================
+Document Body
+Copy and paste these tags in the <body> section of your HTML.
+Place each tag in the desired location of the associated <div>.
+================================================================
+<div id="cncpt-lb1_skn"></div>
+
+<div id="cncpt-lb2"></div>
+
+<div id="cncpt-lb3"></div>
+
+<div id="cncpt-header"></div>
+
+<div id="cncpt-sky1"></div>
+
+<div id="cncpt-sky2"></div>
+
+<div id="cncpt-sky3"></div>
+
+<div id="cncpt-sky4"></div>
+
+<div id="cncpt-tab_lb1"></div>
+
+<div id="cncpt-tab_lb2"></div>
+
+<div id="cncpt-tab_lb3"></div>
+
+<div id="cncpt-mob1"></div>
+
+<div id="cncpt-mob2"></div>
+
+<div id="cncpt-mob3"></div>
+
+<div id="cncpt-outstream"></div>
