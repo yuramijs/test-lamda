@@ -18,14 +18,14 @@ exports.handler = (event, context, callback) => {
     
             const params = {
                 Body: data,
-                Bucket: '/adnami-dev-440674/adsm/',
+                Bucket: '/adnami-dev-440674/adsm',
                 Key: 'adsm.js',
             };
             s3.putObject(params, (err, data) => {
                 if(err) return console.log(err);
                 callback(null, 'put file')
             });
-            //context.succeed('file upload');
+            context.succeed('file upload');
          });
 
     });

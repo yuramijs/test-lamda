@@ -1,9 +1,9 @@
 var path = require('path');
 
 module.exports = {
-   entry: './compile.js',
+   entry: './adnami/run.js',
    output: {
-      filename: 'bundler.js',
+      filename: 'bundle.js',
       path: path.resolve('/tmp/')
    }
 };

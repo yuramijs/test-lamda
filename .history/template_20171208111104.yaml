@@ -12,4 +12,4 @@ Resources:
     Properties:
       Runtime: nodejs6.10
       Handler: index.handler   
-      Timeout: 30  
+      Timeout: 10  

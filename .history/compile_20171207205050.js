@@ -1,5 +1,5 @@
-// const browserify = require('browserify');
-// const bundler = browserify();
+const browserify = require('browserify');
+const bundler = browserify();
 
 const createBundle = (file) => {
     //bundler.add(file);
@@ -23,4 +23,4 @@ const createBundle = (file) => {
     //});
 };
 
-// module.exports.createBundle = createBundle;
+module.exports.createBundle = createBundle;

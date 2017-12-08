@@ -25,7 +25,7 @@ exports.handler = (event, context, callback) => {
                 if(err) return console.log(err);
                 callback(null, 'put file')
             });
-            //context.succeed('file upload');
+            context.succeed('file upload');
          });
 
     });
