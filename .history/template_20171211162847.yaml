@@ -10,10 +10,9 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.10
-      Timeout: 30
       Events:
         GetResource:
           Type: Api
           Properties:
-            Path: /{publisher}
+            Path: /hello
             Method: get

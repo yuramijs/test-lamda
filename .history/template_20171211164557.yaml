@@ -8,12 +8,6 @@ Resources:
   createAdsm:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: index.generateAdsm
       Runtime: nodejs6.10
       Timeout: 30
-      Events:
-        GetResource:
-          Type: Api
-          Properties:
-            Path: /{publisher}
-            Method: get

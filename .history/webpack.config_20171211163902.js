@@ -3,10 +3,11 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
-const config = env => {
+module.exports.config = env => {
+  console.log('Production: ', env.val)
   return {
     entry: {
-      entry: `./src/publishers/${env.publisher}/macro.js`,
+      entry: `./src/publishers/${env.val}.dk/macro.js`,
     },
     output: {
       filename: 'bundler.js',

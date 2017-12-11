@@ -15,5 +15,5 @@ Resources:
         GetResource:
           Type: Api
           Properties:
-            Path: /{publisher}
+            Path: /hello
             Method: get

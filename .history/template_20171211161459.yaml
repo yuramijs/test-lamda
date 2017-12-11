@@ -5,15 +5,13 @@ Description: |
   An example Serverless project that uses the AWS SDK to list S3 buckets
 
 Resources:
-  createAdsm:
+  # Place your project resources here (AWS Lambda functions, API Gateway) etc
+
+  Bundle:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
       Runtime: nodejs6.10
-      Timeout: 30
-      Events:
-        GetResource:
-          Type: Api
-          Properties:
-            Path: /{publisher}
-            Method: get
+      Handler: index.createAdsm   
+      Timeout: 30  
+      Events: 
+      Path: /

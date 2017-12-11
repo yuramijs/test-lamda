@@ -7,7 +7,7 @@ const s3 = new AWS.S3({apiVersion: '2006-03-01'});
 
 const getUUID = data => {
     const getID = data.search(`uuid:"`);
-    return data.substring(getID + 6, getID + 36);
+    return data.substring(getID+6,getID+36);
 };
 
 exports.handler = (event, context, callback) => {
@@ -35,10 +35,10 @@ exports.handler = (event, context, callback) => {
 
             s3.putObject(params, (err, data) => {
                 if(err) return console.log(err);
-                
+
                 callback(null, {
                     statusCode: 200,
-                    headers: { "x-custom-header" : "my custom header value" },
+                    headers: { "x-custom-header" : 'path' },
                     body: path + ' compiled'
                 });
             });

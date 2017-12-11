@@ -7,7 +7,7 @@ const s3 = new AWS.S3({apiVersion: '2006-03-01'});
 
 const getUUID = data => {
     const getID = data.search(`uuid:"`);
-    return data.substring(getID + 6, getID + 36);
+    return data.substring(getID+6,getID+36);
 };
 
 exports.handler = (event, context, callback) => {
