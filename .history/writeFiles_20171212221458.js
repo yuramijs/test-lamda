@@ -22,12 +22,12 @@ const getOutput = file => {
     if(file === 'css.css') {
         return `${__dirname}/aniston/css/${file}`;
     }
-    else if(file === 'skin.js') {
-        return `${__dirname}/aniston/mnemonics/${file}`;
-    }
-    else {
-        return `${__dirname}/aniston/${file}`;
-    }
+    // else if(file === 'skin.js') {
+    //     return `${__dirname}/aniston/mnemonics/${file}`;
+    // }
+    // else {
+    //     return `${__dirname}/aniston/${file}`;
+    // }
 };
   
 

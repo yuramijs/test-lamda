@@ -20,14 +20,14 @@ const s3 = new AWS.S3({apiVersion: '2006-03-01'});
 //helpers
 const getOutput = file => {
     if(file === 'css.css') {
-        return `${__dirname}/aniston/css/${file}`;
+        return `/tmp/${file}`;
     }
-    else if(file === 'skin.js') {
-        return `${__dirname}/aniston/mnemonics/${file}`;
-    }
-    else {
-        return `${__dirname}/aniston/${file}`;
-    }
+    // else if(file === 'skin.js') {
+    //     return `${__dirname}/aniston/mnemonics/${file}`;
+    // }
+    // else {
+    //     return `${__dirname}/aniston/${file}`;
+    // }
 };
   
 

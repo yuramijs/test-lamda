@@ -4,6 +4,7 @@
 
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
+const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
 

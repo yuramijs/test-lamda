@@ -61,6 +61,7 @@ const write = async ((uuid) => {
         const content = obj.Body;
      
         const write = await (writeFile(output, content, 'utf8')); 
+
     });
 });
 

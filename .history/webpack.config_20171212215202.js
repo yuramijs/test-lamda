@@ -3,7 +3,6 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
-
 const config = env => {
   return {
     entry: './aniston/macro.js',

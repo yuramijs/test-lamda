@@ -2,7 +2,6 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 const pather = require('path');
 const util = require('util');
-const webpack = require('./webpack.config.js');
 
 //add polyfill because nodejs 6 not support util.promisify
 require('util.promisify').shim();
@@ -33,7 +32,7 @@ const getOutput = file => {
 
 //promosify
 const getListObjects = bucket => s3.listObjects(bucket).promise();
-const getObject = params => s3.getObject(params).promise();
+const getObject = (params) => s3.getObject(params).promise();
 const writeFile = util.promisify(fs.writeFile);
 
 const write = async ((uuid) => {

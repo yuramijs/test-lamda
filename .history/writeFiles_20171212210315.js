@@ -2,7 +2,6 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 const pather = require('path');
 const util = require('util');
-const webpack = require('./webpack.config.js');
 
 //add polyfill because nodejs 6 not support util.promisify
 require('util.promisify').shim();
@@ -23,10 +22,10 @@ const getOutput = file => {
         return `${__dirname}/aniston/css/${file}`;
     }
     else if(file === 'skin.js') {
-        return `${__dirname}/aniston/mnemonics/${file}`;
+        return `/home/q/using-aws-sdk/aniston/mnemonics/${file}`;
     }
     else {
-        return `${__dirname}/aniston/${file}`;
+        return `/home/q/using-aws-sdk/aniston/${file}`;
     }
 };
   
@@ -37,7 +36,7 @@ const getObject = params => s3.getObject(params).promise();
 const writeFile = util.promisify(fs.writeFile);
 
 const write = async ((uuid) => {
-
+    console.log('wtite')
     const bucket = {
         Bucket: 'adnami-dev-440674',
         Prefix: `macro/${uuid}`,

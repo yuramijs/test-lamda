@@ -23,10 +23,10 @@ const getOutput = file => {
         return `${__dirname}/aniston/css/${file}`;
     }
     else if(file === 'skin.js') {
-        return `${__dirname}/aniston/mnemonics/${file}`;
+        return `/home/q/using-aws-sdk/aniston/mnemonics/${file}`;
     }
     else {
-        return `${__dirname}/aniston/${file}`;
+        return `/home/q/using-aws-sdk/aniston/${file}`;
     }
 };
   

@@ -4,6 +4,7 @@
 
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
+const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
 
@@ -19,7 +20,8 @@ const result = (headers, body, callback) => {
 
 
 exports.handler = (event, context, callback) => {
-    const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
+    const wp = exec('node writeFiles');
+    //const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
     wp.stdout.on('data', function(data){
         console.log('stdout: ' + data);
@@ -34,7 +36,7 @@ exports.handler = (event, context, callback) => {
     //TODO refactor resolve problem with favicon query
     if(code === 2) return result('favicon', 'favicon', callback);
 
-    fs.readFile('/tmp/bundle.js', 'utf8', (err, data) => {
+    fs.readFile('/tmp/css.css', 'utf8', (err, data) => {
         if (err) return context.fail("Read file failed: " + err);
 
         const path = 'aniston.dk'//event.queryStringParameters.folder;

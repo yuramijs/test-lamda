@@ -3,7 +3,6 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
-
 const config = env => {
   return {
     entry: './aniston/macro.js',
@@ -31,8 +30,7 @@ const config = env => {
       new webpack.optimize.UglifyJsPlugin(),
       new CopyWebpackPlugin([
         {
-          context: 'src/publishers',
-          from: '*/index.html',
+          from: 'aniston/macro.js',
         },
       ]),
     ],

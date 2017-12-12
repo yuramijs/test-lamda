@@ -2,7 +2,6 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 const pather = require('path');
 const util = require('util');
-const webpack = require('./webpack.config.js');
 
 //add polyfill because nodejs 6 not support util.promisify
 require('util.promisify').shim();
@@ -33,11 +32,11 @@ const getOutput = file => {
 
 //promosify
 const getListObjects = bucket => s3.listObjects(bucket).promise();
-const getObject = params => s3.getObject(params).promise();
+const getObject = (params) => s3.getObject(params).promise();
 const writeFile = util.promisify(fs.writeFile);
 
 const write = async ((uuid) => {
-
+    console.log('wtite')
     const bucket = {
         Bucket: 'adnami-dev-440674',
         Prefix: `macro/${uuid}`,
@@ -67,4 +66,4 @@ const write = async ((uuid) => {
 write('0f52469d-0e93-4986-8e25-c58bf901eaaf');
 
 
-exports.write = write;
+exports.test = 'write';

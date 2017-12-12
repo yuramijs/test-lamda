@@ -4,8 +4,10 @@
 
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
+const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
+const write = require("./writeFiles");
 
 const s3 = new AWS.S3({apiVersion: '2006-03-01'});
 
@@ -19,6 +21,7 @@ const result = (headers, body, callback) => {
 
 
 exports.handler = (event, context, callback) => {
+    fs.writeFile('/tmp/aniston/macro.js', 'dsad', 'utf8')
     const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
     wp.stdout.on('data', function(data){

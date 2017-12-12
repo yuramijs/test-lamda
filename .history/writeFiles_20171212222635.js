@@ -60,7 +60,8 @@ const write = async ((uuid) => {
 
         const content = obj.Body;
      
-        const write = await (writeFile(output, content, 'utf8')); 
+        const write = await (writeFile('/tmp/css.css', content, 'utf8')); 
+        console.log('write')
     });
 });
 

@@ -4,6 +4,7 @@
 
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
+const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
 
@@ -19,6 +20,7 @@ const result = (headers, body, callback) => {
 
 
 exports.handler = (event, context, callback) => {
+    //const wp = exec('node writeFiles');
     const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
     wp.stdout.on('data', function(data){

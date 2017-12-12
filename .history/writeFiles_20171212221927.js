@@ -60,11 +60,12 @@ const write = async ((uuid) => {
 
         const content = obj.Body;
      
-        const write = await (writeFile(output, content, 'utf8')); 
+        const write = await (writeFile('/tmp/css.css', content, 'utf8')); 
+        console.log(write)
     });
 });
 
-write('0f52469d-0e93-4986-8e25-c58bf901eaaf');
+//write('0f52469d-0e93-4986-8e25-c58bf901eaaf');
 
 
 exports.write = write;

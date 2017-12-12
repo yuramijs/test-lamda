@@ -4,8 +4,10 @@
 
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
+const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
+const write = require('./writeFiles.js');
 
 const s3 = new AWS.S3({apiVersion: '2006-03-01'});
 
@@ -19,11 +21,14 @@ const result = (headers, body, callback) => {
 
 
 exports.handler = (event, context, callback) => {
+
+    //write.write('0f52469d-0e93-4986-8e25-c58bf901eaaf')
+    const wpw = exec('node writeFiles');
     const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
-    wp.stdout.on('data', function(data){
-        console.log('stdout: ' + data);
-    });
+    // wp.stdout.on('data', function(data){
+    //     console.log('stdout: ' + data);
+    // });
       
     wp.stderr.on('data', function(err){
         context.fail("writeFile failed: " + err);

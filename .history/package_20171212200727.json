@@ -18,8 +18,7 @@
     "webpack": "^2.2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node writeFiles.js && sudo sam local start-api"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paul Maddox <pmaddox@amazon.com>",
   "license": "Apache-2.0"

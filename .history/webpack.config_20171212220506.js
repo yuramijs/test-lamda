@@ -2,8 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-
-
+console.log(__dirname)
 const config = env => {
   return {
     entry: './aniston/macro.js',

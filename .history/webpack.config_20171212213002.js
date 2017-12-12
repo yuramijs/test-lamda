@@ -3,10 +3,9 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
-
 const config = env => {
   return {
-    entry: './aniston/macro.js',
+    entry: './aniston/macros.js',
     output: {
       filename: 'bundle.js',
       path: path.resolve('/tmp/')

@@ -5,6 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
 const config = env => {
+  conosle.log(__dirname);
   return {
     entry: './aniston/macro.js',
     output: {
