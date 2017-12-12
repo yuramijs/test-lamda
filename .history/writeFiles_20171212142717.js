@@ -28,30 +28,16 @@ function listObjects(bucket, callback) {
 
             const params = {
                 Bucket: 'adnami-dev-440674/macro/0f52469d-0e93-4986-8e25-c58bf901eaaf',
-                Key: file,
+                Key: 'macro.js', //file
             };
 
-            let output = null;
-            if(file === 'css.css') {
-                output = `${__dirname}/aniston/css/${file}`;
-            }
-            else if(file === 'skin.js') {
-                output = `${__dirname}/aniston/mnemonics/${file}`;
-            }
-            else {
-                output = `${__dirname}/aniston/${file}`;
-            }
-        
-
             s3.getObject(params, function(err, data) {
-                const content = data.Body;
                 if (err) return console.log(err, err.stack); 
-                
-                fs.writeFile(output, content, 'utf8', () => {
+                fs.writeFile('/test/macro.js', data.Body, 'utf8', () => {
 
-                    console.log(file + ' write');
-                    //const path = 'aniston.dk'//event.queryStringParameters.folder;
-                    //const uuid = '0f52469d-0e93-4986-8e25-c58bf901eaaf'//event.path.slice(1);  
+                    console.log(file + ' write')
+                    const path = 'aniston.dk'//event.queryStringParameters.folder;
+                    const uuid = '0f52469d-0e93-4986-8e25-c58bf901eaaf'//event.path.slice(1);  
 
                 });  
                 

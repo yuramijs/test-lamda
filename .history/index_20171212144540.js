@@ -36,10 +36,7 @@ exports.handler = (event, context, callback) => {
 
     fs.readFile('/tmp/bundle.js', 'utf8', (err, data) => {
         if (err) return context.fail("Read file failed: " + err);
-
-        const path = 'aniston.dk'//event.queryStringParameters.folder;
-        const uuid = '0f52469d-0e93-4986-8e25-c58bf901eaaf'//event.path.slice(1);  
-
+        console.log(data)
         const params = {
             Body: data,
             Bucket: '/adnami-dev-440674/adsm',

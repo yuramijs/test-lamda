@@ -21,9 +21,9 @@ exports.handler = (event, context, callback) => {
 
     const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
-    // wp.stdout.on('data', function(data){
-    //     console.log('stdout: ' + data);
-    // });
+    wp.stdout.on('data', function(data){
+        console.log('stdout: ' + data);
+    });
       
     wp.stderr.on('data', function(err){
         context.fail("writeFile failed: " + err);
@@ -39,7 +39,7 @@ exports.handler = (event, context, callback) => {
 
         const path = 'aniston.dk'//event.queryStringParameters.folder;
         const uuid = '0f52469d-0e93-4986-8e25-c58bf901eaaf'//event.path.slice(1);  
-
+        
         const params = {
             Body: data,
             Bucket: '/adnami-dev-440674/adsm',

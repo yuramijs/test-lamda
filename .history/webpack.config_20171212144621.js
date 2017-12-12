@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = env => {
   return {
-    entry: './aniston/macro.js',
+    entry: `./src/publishers/${env.publisher}/macro.js`, //
     output: {
       filename: 'bundle.js',
       path: path.resolve('/tmp/')

@@ -5,10 +5,9 @@
 const AWS = require('aws-sdk');
 const spawn = require('child_process').spawn;
 const fs = require('fs');
-const path = require('path');
+const pather = require('path');
 
 const s3 = new AWS.S3({apiVersion: '2006-03-01'});
-
 const result = (headers, body, callback) => {
     return callback(null, {
                 statusCode: 200,
@@ -21,9 +20,9 @@ exports.handler = (event, context, callback) => {
 
     const wp = spawn('./node_modules/.bin/webpack', ['--config', 'webpack.config.js', '--env.publisher', path]);
       
-    // wp.stdout.on('data', function(data){
-    //     console.log('stdout: ' + data);
-    // });
+    wp.stdout.on('data', function(data){
+        console.log('stdout: ' + data);
+    });
       
     wp.stderr.on('data', function(err){
         context.fail("writeFile failed: " + err);
@@ -36,10 +35,7 @@ exports.handler = (event, context, callback) => {
 
     fs.readFile('/tmp/bundle.js', 'utf8', (err, data) => {
         if (err) return context.fail("Read file failed: " + err);
-
-        const path = 'aniston.dk'//event.queryStringParameters.folder;
-        const uuid = '0f52469d-0e93-4986-8e25-c58bf901eaaf'//event.path.slice(1);  
-
+        console.log(data)
         const params = {
             Body: data,
             Bucket: '/adnami-dev-440674/adsm',
