@@ -4,11 +4,14 @@
   "description": "An example Serverless project that uses the AWS SDK to list S3 buckets",
   "main": "index.js",
   "dependencies": {
+    "asyncawait": "^1.0.6",
     "aws-sdk": "^2.94.0",
     "browserify": "^14.5.0",
     "copy-webpack-plugin": "^4.2.3",
     "fs-extra": "^4.0.3",
+    "graceful-fs": "^4.1.11",
     "lodash": "^4.17.4",
+    "util.promisify": "^1.0.0",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
