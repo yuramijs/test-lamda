@@ -39,12 +39,12 @@ const listObjects = (bucket, callback) => {
                 Key: file,
             };
             const output = getOutput(file);        
-            callback(params, output, file);
+            callback(params, output);
         });
       });
 };
 
-listObjects(bucket, (params, output, file) => {
+listObjects(bucket, (params, output) => {
     s3.getObject(params, (err, object) => {
         const content = object.Body;
         if (err) return console.error(err, err.stack); 

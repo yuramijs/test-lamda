@@ -27,6 +27,7 @@ const bucket = {
 };
 
 const listObjects = (bucket, callback) => {
+
     s3.listObjects(bucket, (err, list) => {
         if (err) return console.error(err, err.stack); 
         const objects = list.Contents.slice(1);
@@ -39,21 +40,24 @@ const listObjects = (bucket, callback) => {
                 Key: file,
             };
             const output = getOutput(file);        
-            callback(params, output, file);
+
+            s3.getObject(params, (err, object) => {
+                const content = object.Body;
+                if (err) return console.error(err, err.stack); 
+                
+                fs.writeFile(output, content, 'utf8', () => {
+
+                    console.log(file + ' write');
+            
+
+                });  
+                
+            });
         });
       });
-};
+}
 
-listObjects(bucket, (params, output, file) => {
-    s3.getObject(params, (err, object) => {
-        const content = object.Body;
-        if (err) return console.error(err, err.stack); 
-        
-        fs.writeFile(output, content, 'utf8', () => {
-            console.log(file + ' write');
-        });   
-    });
-});
+listObjects(bucket);
 
 // Export the handler function
 module.exports = listObjects;
