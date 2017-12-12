@@ -7,7 +7,7 @@ const config = env => {
   return {
     entry: {
       filename: `macro.js`,
-      path: path.resolve('/var/task/')
+      path: path.resolve('../')
     },
     output: {
       filename: 'bundle.js',
