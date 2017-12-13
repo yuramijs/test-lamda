@@ -54,10 +54,9 @@ const write = async ((uuid, s3, callback) => {
      
         const write = await (writeFile(output, content, 'utf8')); 
         //const read = await (readFile('/tmp/css.css', 'utf8')); 
-        //console.log(read);
     });
 
-    callback()
+    callback();
 });
 
 //TODO refactor
