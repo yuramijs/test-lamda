@@ -1,5 +1,5 @@
-// var css = require('./mnemonics/css');
-// var scripts = require( './mnemonics/scripts');
+ var css = require('./mnemonics/css');
+ var scripts = require( './mnemonics/scripts');
 var macro = require( 'macro');
 var script = require( 'core/script');
 
